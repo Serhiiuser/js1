@@ -42,17 +42,25 @@
 // let arr =[2,17,13,6,22,31,45,66,100,-18];
 // let i = 0;
 // while (i < arr.length ){
-//         console.log(arr)
-//
-//     i+=2;
+//     let item = arr[i];
+//     if ( item %2 === 0){
+//         console.log(item)
+//     }
+//     i++;
 // }
 
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
 // let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];
-// for (let i = 0; i < arr.length; i+=2) {
-//         console.log(arr[i]);
+// for (let i = 0; i < arr.length; i++) {
+//     const item = arr[i];
+//     if (item % 2 === 0){
+//         console.log(item)
+//     }
 //
 // }
+
+
+
 
 // 7. замінити кожне число кратне 3 на слово "okten"
 // let arr = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18];

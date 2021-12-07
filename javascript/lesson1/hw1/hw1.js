@@ -1,17 +1,17 @@
 // - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
-let h = 'hello';
-let o = 'owu';
-let c = 'com';
-let u = 'ua';
-let one = 1;
-let ten =10;
-let minus = -999;
-let a = 123;
-let b = 3.14;
-let d = 2.7;
-let six= 16;
-let t =true;
-let f = false;
+// let h = 'hello';
+// let o = 'owu';
+// let c = 'com';
+// let u = 'ua';
+// let one = 1;
+// let ten =10;
+// let minus = -999;
+// let a = 123;
+// let b = 3.14;
+// let d = 2.7;
+// let six= 16;
+// let t =true;
+// let f = false;
 // Вивести кожну змінну за допомогою: console.log , alert, document.write
 // console.log(h);
 // // alert(h);
@@ -66,19 +66,19 @@ let f = false;
 // document.write(f);
 // - Переприсвоїти кожній змінній з завдання значення на довільне.
 
-h = 'hallo';
-o = 'school';
-c = 'dot';
-u = 'usa';
-one = 111;
-ten = -10;
-minus = -1000;
-a = 'xxx';
-b = 'yyy';
-d = 30;
-six = 666;
-t = 'man';
-f = 'woman';
+// h = 'hallo';
+// o = 'school';
+// c = 'dot';
+// u = 'usa';
+// one = 111;
+// ten = -10;
+// minus = -1000;
+// a = 'xxx';
+// b = 'yyy';
+// d = 30;
+// six = 666;
+// t = 'man';
+// f = 'woman';
 
 // Вивести кожну змінну за допомогою: console.log , alert, document.write
 // console.log(h);
@@ -161,9 +161,9 @@ f = 'woman';
 // let b = '100';
 // let c = true;
 //
-// console.log(typeof 100);
-// console.log( typeof '100');
-// console.log(typeof true);
+// console.log(typeof a);
+// console.log( typeof b);
+// console.log(typeof c);
 
 // - Визначити відповідний оператор в виразах що б вийшов відповідний результат.
 //     В однакових виразах не використовувати однакові оператори!!!
@@ -182,7 +182,7 @@ f = 'woman';
 // - Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
 //     let str = "20";
 // let a = 5;
-// document.write(str + a + "<br/>");205 ( 20 перевело в цифру і 5 залишилось просто) br не рахуються як number
+// document.write(str + a + "<br/>"); '20','5'(зробило число стрінгою)
 // document.write(str - a + "<br/>");15  ( 20 перевело  в цифру і - 5)
 // document.write(str * "2" + "<br/>"); 40 ( 20 перевело в цифру *2)
 // document.write(str / 2 + "<br/>"); 10 (20 перевело в цифру поділило на 2)

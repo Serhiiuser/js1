@@ -21,15 +21,26 @@
 // console.log(areaCircle(5,7))
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
-
-// let arr = ['hello',true,100,'was is das',false,123]
+//
+// let arr = ['hello',true,100,'was is das',false,123];
+//
 // let arrF = (arr)=>{
 //     for (let i = 0; i < arr.length; i++) {
+//         document.write(arr[i]);
+//     }
 //
+// }
+// arrF(arr);
+
+
+// let array = [1,2,3,4,5, 'hello world', 'okten'];
+//
+// const dataArray =  (array) => {
+//     for (let i = 0; i < array.length; i++) {
+//        document.write(array[i]);
 //     }
 // }
-// console.log(arr)
-
+// dataArray(array);
 // створити функцію яка  створює параграф з текстом. Текст задати через аргумент
 
 //  let someText = (text)=> {
@@ -62,14 +73,17 @@
 // createText('Hello JS',3);
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-//
+// //
 // let arr = ['hello',true,100,'was is das',false,123]
 // let fArr= (arr)=> {
+//     document.write(`<ul>`)
 //     for (let i = 0; i < arr.length; i++) {
-// console.log(arr[i])
+//         document.write(`<li>${arr[i]}</li>`);
 //     }
+//         document.write(`</ul>`)
 // }
 // fArr(arr);
+
 
 // створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 

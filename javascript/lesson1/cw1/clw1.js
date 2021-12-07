@@ -42,9 +42,9 @@
 //
 // ]
 //
-// console.log(arr [0] );
-// console.log(arr [1] );
-// console.log(arr [2] );
+// console.log(arr[0] );
+// console.log(arr[1] );
+// console.log(arr[2] );
 //
 //
 
@@ -60,13 +60,16 @@
 // результат помістіть у змінну v.
 // const Pi = 3.14;
 // let hc= 10;
-// let dc = Math.pow(4, 2);
+// let dc = 4 ;
 // let v = Pi*dc*hc;
 // console.log(v);
 
+
+
+
 // 7. У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
 // Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь) або оператор зведення в ступінь **)
-// let n = Math.pow(3,2)
-// let m = Math.pow(4, 2);
-// let k = Math.sqrt((Math.pow(3, 2) + Math.pow(4, 2)))
+// let n = 3
+// let m = 4
+// let k = Math.sqrt((Math.pow(n, 2) + Math.pow(m, 2)))
 // console.log(k)
