@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .wrapper {
+
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            background: black;
+        }
+
+        .card {
+            width: 240px;
+            height: 300px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            color: brown;
+
+
+        }
+
+        .card:hover {
+            background: #fcf3f3;
+            transition: .3s;
+            transform: rotateY(2grad);
+        }
+
+        .card h2 {
+            margin: 0;
+        }
+
+        .card h3 {
+            height: 50px;
+        }
+
+        .card h4 {
+            height: 90px;
+        }
+
+
+        .divComments {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid darkgrey;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        .divComments:hover {
+            background: #cac6c6;
+            transition: .3s;
+            transform: rotateY(2grad);
+        }
+
+        .divComments h3 {
+            margin: 5px;
+        }
+
+        .divComments h4 {
+            margin: 5px;
+        }
+
+        .divComments h5 {
+            margin: 0;
+            height: 40px;
+        }
+
+        .divComments h6 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<script src="cw_12.js"></script>
+</body>
+</html>
