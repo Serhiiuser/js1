@@ -31,10 +31,6 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                                                 <h4>Name:${comment.name}</h4>
                                                 <h5>Email:${comment.email}</h5>`;
 
-
-
-
-
                               divCard.appendChild(divComments);
                           }
                           button.disabled= true;
