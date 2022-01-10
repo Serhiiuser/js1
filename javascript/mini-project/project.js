@@ -12,8 +12,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
             let userDiv = document.createElement('div');
             userDiv.classList.add('card')
             userDiv.innerHTML =
-                `<h1>ID: ${user.id}</h1>
-                 <h2>Name: ${user.name}</h2>`;
+                `<h3>ID: ${user.id}</h3>
+                 <h4>Name: ${user.name}</h4>`;
             let detailsList = document.createElement('a');
             detailsList.href = 'details.html?id='+user.id
             detailsList.innerText = 'details info'
